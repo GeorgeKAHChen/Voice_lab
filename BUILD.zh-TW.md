@@ -1,4 +1,4 @@
-# 編譯 amakawa
+# 編譯 Voice_lab
 
 [English](BUILD.md) · [繁體中文](BUILD.zh-TW.md)
 

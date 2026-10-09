@@ -1,4 +1,4 @@
-# amakawa
+# Voice_lab
 
 [English](README.md) · [繁體中文](README.zh-TW.md)
 

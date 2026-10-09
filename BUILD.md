@@ -1,4 +1,4 @@
-# Building amakawa
+# Building Voice_lab
 
 [English](BUILD.md) · [繁體中文](BUILD.zh-TW.md)
 

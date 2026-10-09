@@ -1,0 +1,166 @@
+{
+  "@@locale": "en",
+  "tabLive": "Live",
+  "tabRecordings": "Recordings",
+  "sectionPitch": "Pitch (F0)",
+  "sectionSpectrum": "Live spectrum",
+  "sectionSpectrogram": "Spectrogram",
+  "levelDb": "Level {db} dB",
+  "@levelDb": {
+    "placeholders": {
+      "db": {
+        "type": "int"
+      }
+    }
+  },
+  "monitorOn": "Turn headphone monitoring on",
+  "monitorOff": "Turn headphone monitoring off",
+  "monitorWarning": "Wear headphones, otherwise the speaker sound is picked up by the microphone and howls.",
+  "delayTooltip": "Monitor delay",
+  "delayRealtime": "Delay: real time",
+  "delaySeconds": "Delay: {seconds} s",
+  "@delaySeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "delayMenuRealtime": "Real time (no delay)",
+  "delayMenuSeconds": "Delay {seconds} s",
+  "@delayMenuSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "bufferLatency": "(buffer ≈ {ms} ms)",
+  "@bufferLatency": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "record": "Record",
+  "stop": "Stop",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "retry": "Retry",
+  "settingsTitle": "Settings",
+  "recordingSaved": "Recording saved. Find it in the Recordings tab.",
+  "takeHint": "Speak, then hear it back (not saved)",
+  "takeStart": "Start",
+  "takeSpeaking": "Speaking {time}",
+  "@takeSpeaking": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "takeStopAndReplay": "Stop & replay",
+  "takePlaying": "Playing back",
+  "takeFinished": "Playback finished",
+  "takeReplay": "Replay",
+  "takeSave": "Save this take",
+  "takeDiscard": "Discard",
+  "takeRecordAgain": "Record again",
+  "takeSaved": "Saved to the Recordings tab.",
+  "errMicPermission": "Microphone permission is required. Please allow amakawa to use the microphone in system settings.",
+  "errOpenDevice": "Could not open the audio device (error {code}). Check that a microphone and headphones are connected.",
+  "@errOpenDevice": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "errRecordStart": "Could not start recording (error {code})",
+  "@errRecordStart": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingsEmpty": "No recordings yet. Press Record on the Live tab to start.",
+  "savedIn": "Saved in: {path}",
+  "@savedIn": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "menuRename": "Rename",
+  "menuShare": "Export / share",
+  "menuDelete": "Delete",
+  "renameTitle": "Rename",
+  "deleteTitle": "Delete recording?",
+  "delete": "Delete",
+  "cannotOpenRecording": "Could not open this recording",
+  "playbackHint": "Tap or drag the spectrogram to seek. The spectrum and pitch show the analysis at the playhead.",
+  "language": "Language",
+  "languageSystem": "Follow system",
+  "spectrumRange": "Spectrum range",
+  "dynamicRange": "Dynamic range",
+  "audioDevices": "Audio devices",
+  "inputDevice": "Input (microphone)",
+  "outputDevice": "Output (headphones)",
+  "systemDefault": "System default",
+  "applyDevices": "Apply devices",
+  "latencyTip": "Tip: wired headphones give the lowest latency; Bluetooth headphones usually add 100 ms or more. Current buffer latency ≈ {ms} ms.",
+  "@latencyTip": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "backgroundTitle": "Background",
+  "backgroundKeepRunning": "Keep running when the screen is off or in another app",
+  "backgroundKeepRunningHint": "Shows a persistent notification (required by Android)",
+  "serviceRunning": "Background service: running",
+  "serviceStopped": "Background service: not running",
+  "serviceReason": "Reason: {reason}",
+  "@serviceReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "backgroundStartFailed": "Background mode could not start: {reason} (Settings → Background)",
+  "@backgroundStartFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationsAllowed": "Notifications: allowed",
+  "notificationsDenied": "Notifications: not allowed",
+  "notificationsHint": "Needed to show the “running” notification while amakawa works in the background",
+  "allow": "Allow",
+  "batteryOk": "Battery optimization is ignored for this app",
+  "batteryWarn": "Battery optimization may stop background audio",
+  "batteryHint": "Recommended on phones that aggressively stop background apps (Xiaomi, Huawei, OPPO, vivo, Samsung…)",
+  "notifChannelName": "amakawa background",
+  "notifChannelDescription": "Keeps amakawa running in the background while monitoring or recording",
+  "notifIdle": "Analyzing — tap to return",
+  "notifRecording": "Recording",
+  "notifMonitoring": "Monitoring",
+  "notifPlayback": "Playing back",
+  "notifTake": "Capturing a take (replays when you stop)",
+  "notifBusy": "{parts} — tap to return",
+  "@notifBusy": {
+    "placeholders": {
+      "parts": {
+        "type": "String"
+      }
+    }
+  },
+  "listSeparator": ", "
+}
